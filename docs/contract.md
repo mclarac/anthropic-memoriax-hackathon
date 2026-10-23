@@ -66,8 +66,8 @@ One socket per session. Messages are JSON objects with a `type` field.
 
 ## Fake mode behavior (for tests)
 
-- The interviewer asks the priority-ordered questions from a fixed script and confirms one priority slot per rep utterance and ends after the 11th utterance (one per priority slot) with `interview_complete{reason: "slots_filled"}`.
+- The interviewer asks the priority-ordered questions from a fixed script. Each rep utterance confirms the next priority slot, so the interview ends after the 11th utterance (there are 11 priority slots) with `interview_complete{reason: "slots_filled"}`.
 - The slot extractor marks the next priority slot `confirmed`, using the utterance as value and quote.
 - Each backfill stage returns a fixed, schema-valid fixture from `backend/src/memoria/fakes/fixtures/`.
-- MemoryStore keeps snapshots in memory per process. The memory writer adds or modifies `/accounts/{account_slug}/objections.md`, so a second session produces a `modified` diff.
+- MemoryStore keeps snapshots in memory per process. The memory writer adds or modifies `/accounts/{account_slug}/objections.md` and `strategy.md`, so a second session produces a `modified` diff.
 - TTS returns a valid 0.2-second silent WAV.
