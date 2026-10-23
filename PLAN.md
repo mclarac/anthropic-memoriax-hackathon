@@ -3,7 +3,7 @@
 A voice-first sales engineer agent that works for any company and any product, built on the Card D track (`../institutional-memory/scenario-cards.md`) and designed to follow `../Basecamp-Exercises/AI_AGENT_DESIGN_CONSTITUTION.md`.
 
 - Architecture: [`docs/architecture.md`](docs/architecture.md)
-- Chain prompts, schemas, call settings: [`prompts/chain_prompts.py`](prompts/chain_prompts.py)
+- Chain prompts, schemas, call settings: [`backend/src/memoria/chain_prompts.py`](backend/src/memoria/chain_prompts.py)
 
 ## Track requirements (pass/fail)
 

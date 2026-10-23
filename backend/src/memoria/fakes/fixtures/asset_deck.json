@@ -1,0 +1,76 @@
+{
+  "title": "Halden Analytics: protecting billing data accuracy",
+  "slides": [
+    {
+      "section": "Where your data stays",
+      "headline": "Monitoring runs inside your cloud account",
+      "bullets": [
+        {
+          "text": "The agent runs in your own cloud account. [E4]"
+        },
+        {
+          "text": "Row-level data never leaves it. [E4]"
+        },
+        {
+          "text": "Connectors use read-only credentials. [E5]"
+        }
+      ],
+      "speaker_notes": "Answer the security question before anything else. Objection O1: the agent is deployed in the customer's account.",
+      "visual": "Diagram of the agent inside the cloud boundary"
+    },
+    {
+      "section": "Coverage next to your tests",
+      "headline": "Monitors catch what tests were not written for",
+      "bullets": [
+        {
+          "text": "Drift, staleness and volume checks on every table. [E1]"
+        },
+        {
+          "text": "Veridian Checks tests tables one by one in code. [E8]"
+        },
+        {
+          "text": "Both can run side by side. [E8]"
+        }
+      ],
+      "speaker_notes": "Objection O2: position Halden beside the existing tests, not against them.",
+      "visual": null
+    },
+    {
+      "section": "Billing accuracy outcome",
+      "headline": "Faster triage protects billing accuracy",
+      "bullets": [
+        {
+          "text": "Alerts reach the owning team within five minutes. [E1]"
+        },
+        {
+          "text": "A regional water company cut triage from six hours to ninety minutes. [E2]"
+        },
+        {
+          "text": "Brightwater plans a billing accuracy program for 2027. [E7]"
+        }
+      ],
+      "speaker_notes": "Tie detection speed to the CIO's billing accuracy goal.",
+      "visual": "Triage time before and after"
+    },
+    {
+      "section": "The 60-day pilot",
+      "headline": "Start with the billing tables",
+      "bullets": [
+        {
+          "text": "Connect to Snowflake with read-only access. [E5]"
+        },
+        {
+          "text": "Cover the billing tables across 40 sites. [E3]"
+        },
+        {
+          "text": "[PLACEHOLDER: pilot success criteria]"
+        }
+      ],
+      "speaker_notes": "Close with the ask: approval to start a 60-day pilot.",
+      "visual": null
+    }
+  ],
+  "placeholders": [
+    "[PLACEHOLDER: pilot success criteria]"
+  ]
+}

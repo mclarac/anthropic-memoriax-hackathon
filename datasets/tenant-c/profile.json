@@ -1,0 +1,23 @@
+{
+  "name": "Harrowgate Industrial Controls",
+  "offering_summary": "Harrowgate Sentinel is a predictive maintenance system for rotating equipment in process plants: wired vibration and motor-current sensors, an on-premises edge gateway that runs the fault models, and a work-order integration into the customer's maintenance system. It flags bearing, alignment and gearbox faults weeks ahead of failure. Sold to plant and reliability managers in pulp and paper, chemicals and food processing. Priced as hardware per monitored asset plus an annual software subscription per site.",
+  "brand_voice": "Plant-floor practical. Speak in downtime hours and repair costs. Respect maintenance planners' experience; never imply sensors replace their judgment.",
+  "approved_claims": [
+    "Sentinel data stays on the plant network; the edge gateway needs no inbound internet connection.",
+    "The gateway reads from the plant historian over OPC UA and writes work requests to SAP PM and Maximo.",
+    "Wired sensors are installed on the equipment bearing housings during a planned outage or a short stop.",
+    "A typical 120-sensor machine install takes two technicians about three days."
+  ],
+  "forbidden_claims": [
+    "Never promise a specific number of avoided failures.",
+    "Never say Sentinel eliminates unplanned downtime.",
+    "Never claim IEC 62443 certification; the gateway is assessed against it, not certified."
+  ],
+  "default_assets": [
+    "deck",
+    "document",
+    "email_sequence"
+  ],
+  "account_slug": "doverfield-paper",
+  "rep_slug": "priya-nair"
+}

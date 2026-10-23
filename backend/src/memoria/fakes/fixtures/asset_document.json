@@ -1,0 +1,19 @@
+{
+  "kind": "solution_brief",
+  "title": "How Halden keeps monitored data inside your environment",
+  "sections": [
+    {
+      "heading": "The question",
+      "body_markdown": "Security teams ask where monitored data goes. [E6]"
+    },
+    {
+      "heading": "The answer",
+      "body_markdown": "The Halden agent runs inside your own cloud account, so row-level data does not leave it. [E4] Connectors use read-only credentials. [E5]"
+    },
+    {
+      "heading": "What is monitored",
+      "body_markdown": "Halden checks for schema drift, freshness failures and volume anomalies and alerts the owning team within five minutes. [E1]"
+    }
+  ],
+  "placeholders": []
+}

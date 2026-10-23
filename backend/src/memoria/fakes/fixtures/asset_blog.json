@@ -1,0 +1,10 @@
+{
+  "title": "Why tests and monitors catch different failures",
+  "slug": "tests-and-monitors-catch-different-failures",
+  "meta_description": "Hand-written data tests cover known rules. Monitors cover the failures nobody wrote a test for. Here is how to use both.",
+  "body_markdown": "Data teams that bill millions of customers cannot afford a wrong number reaching an invoice.\n\n## Tests cover the rules you know\n\nCode-defined testing tools let engineers write a test for each table. [E8] That works well for rules you already understand.\n\n## Monitors cover the rest\n\nA monitor watches every table for schema drift, staleness and volume anomalies, and alerts the owning team within five minutes. [E1] Regulators also expect utilities to document the controls behind billing data. [E9]\n\n## Use both\n\nRun tests for known rules and monitors for everything else. A regional water company cut triage from six hours to ninety minutes this way. [E2]\n\n[PLACEHOLDER: link to a monitoring checklist]",
+  "cta": "Talk to us about a 60-day monitoring pilot.",
+  "placeholders": [
+    "[PLACEHOLDER: link to a monitoring checklist]"
+  ]
+}

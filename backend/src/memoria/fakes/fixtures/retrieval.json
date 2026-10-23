@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "id": "E1",
+      "kind": "uploaded_doc",
+      "applies_to": "our_offering",
+      "claim": "Halden Monitor detects schema drift and stale tables and alerts the owning team within five minutes.",
+      "quote": "Halden Monitor detects schema drift, freshness failures and volume anomalies, and alerts the owning team within five minutes.",
+      "source": "Halden Product Overview, section 2",
+      "source_date": "2026-03-12",
+      "retrieved_on": "2026-10-23",
+      "conflict_note": null
+    },
+    {
+      "id": "E2",
+      "kind": "uploaded_doc",
+      "applies_to": "our_offering",
+      "claim": "A regional water company cut data incident triage time from six hours to ninety minutes with Halden.",
+      "quote": "Northfield Water reduced mean time to triage data incidents from six hours to ninety minutes in the first quarter.",
+      "source": "Halden Case Study: Northfield Water, page 3",
+      "source_date": "2026-05-02",
+      "retrieved_on": "2026-10-23",
+      "conflict_note": null
+    },
+    {
+      "id": "E3",
+      "kind": "uploaded_doc",
+      "applies_to": "account",
+      "claim": "Brightwater Utilities runs 40 sites and bills 1.2 million customers from a Snowflake warehouse.",
+      "quote": "Brightwater operates 40 sites and bills 1.2 million customers from a single Snowflake warehouse.",
+      "source": "Brightwater account notes, section 1",
+      "source_date": "2026-09-15",
+      "retrieved_on": "2026-10-23",
+      "conflict_note": null
+    },
+    {
+      "id": "E4",
+      "kind": "uploaded_doc",
+      "applies_to": "our_offering",
+      "claim": "Halden runs inside the customer's own cloud account, so row-level data does not leave it.",
+      "quote": "The Halden agent runs inside the customer's cloud account. Row-level data never leaves that account.",
+      "source": "Halden Security Overview, page 4",
+      "source_date": "2026-02-20",
+      "retrieved_on": "2026-10-23",
+      "conflict_note": null
+    },
+    {
+      "id": "E5",
+      "kind": "uploaded_doc",
+      "applies_to": "our_offering",
+      "claim": "Halden connects to Snowflake, BigQuery and Databricks with read-only credentials.",
+      "quote": "Connectors for Snowflake, BigQuery and Databricks use read-only credentials.",
+      "source": "Halden Product Overview, section 4",
+      "source_date": "2026-03-12",
+      "retrieved_on": "2026-10-23",
+      "conflict_note": null
+    },
+    {
+      "id": "E6",
+      "kind": "transcript",
+      "applies_to": "stakeholder",
+      "claim": "Brightwater's security lead keeps asking where the data goes during monitoring.",
+      "quote": "their security lead keeps asking where the data goes",
+      "source": "interview 2026-10-23 turn 3",
+      "source_date": "2026-10-23",
+      "retrieved_on": "2026-10-23",
+      "conflict_note": null
+    }
+  ]
+}

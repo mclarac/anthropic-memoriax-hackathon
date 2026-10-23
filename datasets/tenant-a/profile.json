@@ -1,0 +1,23 @@
+{
+  "name": "Pellucid Metrics",
+  "offering_summary": "Pellucid Tracebase is an OpenTelemetry-native telemetry pipeline that sits between collectors and observability backends. It filters, samples, aggregates and routes logs, metrics and traces so customers cut ingest and retention spend without losing the signals engineers use during incidents. Sold to platform engineering and SRE organisations running Kubernetes at scale. Priced per GB processed with an annual commit; deployed as a self-hosted data plane with a hosted control plane.",
+  "brand_voice": "Plain, engineer-to-engineer. Numbers over adjectives. Admit tradeoffs before the customer finds them.",
+  "approved_claims": [
+    "Tracebase is OpenTelemetry-native and accepts OTLP over gRPC and HTTP.",
+    "The data plane runs inside the customer's own VPC; only control metadata leaves it.",
+    "Customers in the 5 to 20 TB per day range typically remove 30 to 45 percent of ingest volume with filtering and aggregation rules reviewed by their own engineers.",
+    "SOC 2 Type II report available under NDA."
+  ],
+  "forbidden_claims": [
+    "Never promise zero data loss.",
+    "Never state a guaranteed percentage saving for a specific customer before a dry-run on their traffic.",
+    "Never disparage a named backend vendor; compare on cost model and workflow only."
+  ],
+  "default_assets": [
+    "deck",
+    "document",
+    "email_sequence"
+  ],
+  "account_slug": "marlowe-freight",
+  "rep_slug": "dana-okafor"
+}

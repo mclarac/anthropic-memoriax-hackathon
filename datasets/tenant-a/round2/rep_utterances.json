@@ -1,0 +1,10 @@
+[
+  "so tomorrow's final pitch got moved to the twenty second still and tomas hjelm is now attending the whole thing not just the last ten minutes",
+  "the big change is the failure objection is basically dead ines said the dual collector design fixed it she's not worried about the extra hop anymore",
+  "but there's a new one from their compliance counsel reggie foss he says the eld driver logs have to be retained unsampled for six months for dot audits and he doesn't want anything that can drop them",
+  "he also asked how we'd prove to an auditor that the pipeline never touched those streams and ines said if legal says no then it's no",
+  "priya actually modeled the splunk renegotiation and it's like twelve percent savings not thirty so that objection is weaker",
+  "on competition cascadia observe launched a free bundled pipeline if you commit to their backend but it only routes to three destinations and doesn't do splunk hec",
+  "and our product team is shipping a lossless s3 archive and per stream bypass in four point two so that might be the answer for reggie",
+  "everything else is the same economic buyer is still tomas hjelm and budget is still the six hundred k"
+]

@@ -1,0 +1,42 @@
+:root {
+  /* Surfaces and ink. Every text/background pair below clears WCAG AA (4.5:1). */
+  --color-paper: #f6f2ea;
+  --color-paper-raised: #fbf9f4;
+  --color-ink: #1c1b18;
+  --color-ink-muted: #58544c;
+  --color-rule: #d8d1c2;
+  --color-rule-strong: #b9b09d;
+
+  --color-accent: #0e5a58;
+  --color-accent-ink: #ffffff;
+  --color-accent-wash: #e1ece8;
+
+  --color-warn: #7a4e00;
+  --color-warn-wash: #f3e6c8;
+  --color-danger: #9a2a1a;
+  --color-danger-wash: #f4ddd6;
+  --color-add-wash: #dcebdd;
+  --color-remove-wash: #f4ddd6;
+
+  --font-sans: "Inter", "Helvetica Neue", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+
+  --text-xs: 0.8125rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2.25rem;
+
+  --space-half: 4px;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+  --space-6: 64px;
+
+  --rule: 1px solid var(--color-rule);
+  --radius: 2px;
+  --measure: 68ch;
+}

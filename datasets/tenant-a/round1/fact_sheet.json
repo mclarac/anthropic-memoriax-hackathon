@@ -1,0 +1,18 @@
+{
+  "next_meeting": "Final pitch on 22 October to Ines Calderon, her platform team and, for the last ten minutes, SVP Engineering Tomas Hjelm",
+  "win_condition": "Ines agrees to a two-week dry run of Tracebase on Marlowe's real traffic",
+  "pain": "Observability spend up 38 percent year over year against 6 percent headcount growth; Splunk costs about 4.2 million dollars a year",
+  "metrics": "Cut ingest volume 40 percent without raising Sev-2 mean time to resolve above 47 minutes",
+  "decision_process": "Platform engineering evaluates, FinOps reviews the numbers, security questionnaire, SVP Engineering signs",
+  "economic_buyer": "Tomas Hjelm, SVP Engineering, with 600 thousand dollars approved from the FY27 cost-optimisation line",
+  "decision_criteria": "No increase in incident resolution time; engineers keep trust in sampled traces; savings proven on Marlowe traffic",
+  "objections": "Ines: extra hop can fail during incidents. Theo Bell: sampling hides traces. Priya: renegotiate Splunk instead",
+  "competition": "Status quo plus Splunk renegotiation; a fragile self-hosted Logstash and Kafka pipeline was evaluated and rejected",
+  "champion": "Theo Bell, staff SRE, who requested the architecture review",
+  "paper_process": "Security questionnaire, procurement MSA of about six weeks, SOC 2 report required",
+  "assets_requested": "Final pitch deck, one-page FinOps cost model document, short email sequence for Ines and Theo Bell",
+  "audience": "Ines Calderon, Theo Bell, Priya Venkataraman, Tomas Hjelm",
+  "deadline": "22 October",
+  "brand_constraints": null,
+  "forbidden_claims": "Do not promise zero data loss"
+}

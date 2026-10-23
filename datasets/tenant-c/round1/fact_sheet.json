@@ -1,0 +1,18 @@
+{
+  "next_meeting": "Final pitch at Calder on 24 October with Gideon Marsh, the mill manager and the planners",
+  "win_condition": "Gideon agrees to put Sentinel sensors on the PM3 dryer section first",
+  "pain": "11 unplanned PM3 stops in 12 months totaling 94 hours at about 38 thousand dollars an hour, mostly dryer bearings and gearboxes",
+  "metrics": "Cut PM3 unplanned downtime 30 percent in year one; payback within 18 months",
+  "decision_process": "Reliability planner evaluates, corporate security clears, VP Manufacturing takes it to capital review",
+  "economic_buyer": "Gideon Marsh, VP Manufacturing, with 410 thousand dollars approved in the September capital plan",
+  "decision_criteria": "No path from the plant network to the cloud; low false-alarm rate; install fits the outage; 18-month payback",
+  "objections": "Wendell Frost: no cloud path. Bernadette Okoye: false alarms. Gideon Marsh: nothing installs before the April outage",
+  "competition": "Status quo of monthly handheld routes and OEM monitoring on PM3 drives; an unnamed wireless vendor quote",
+  "champion": null,
+  "paper_process": "Corporate procurement, security review, insurer wants to see it; about two months for terms",
+  "assets_requested": "Deck, one-page install plan for Gideon, emails to Bernadette and Wendell",
+  "audience": "Gideon Marsh, Ofelia Brandt, Bernadette Okoye, Wendell Frost",
+  "deadline": "24 October",
+  "brand_constraints": null,
+  "forbidden_claims": "Do not claim IEC 62443 certification"
+}

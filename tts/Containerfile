@@ -1,0 +1,26 @@
+FROM python:3.12-slim
+
+# Pinned release assets (model-files-v1.1 publishes the unchanged Kokoro v1.0 weights with sha256 digests).
+ARG KOKORO_RELEASE=https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1
+ARG MODEL_SHA256=beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a
+ARG VOICES_SHA256=bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d
+
+ENV PYTHONUNBUFFERED=1 PIP_NO_CACHE_DIR=1 PIP_DISABLE_PIP_VERSION_CHECK=1
+
+RUN useradd --create-home --uid 10001 tts
+
+WORKDIR /models
+ADD --checksum=sha256:${MODEL_SHA256} ${KOKORO_RELEASE}/kokoro-v1.0.onnx /models/kokoro-v1.0.onnx
+ADD --checksum=sha256:${VOICES_SHA256} ${KOKORO_RELEASE}/voices-v1.0.bin /models/voices-v1.0.bin
+RUN chmod 444 /models/*
+
+WORKDIR /srv
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY app.py synthesizer.py ./
+
+USER tts
+EXPOSE 8880
+HEALTHCHECK --interval=15s --timeout=5s --start-period=30s --retries=3 \
+  CMD python -c "import urllib.request,sys; sys.exit(0 if b'\"model_loaded\":true' in urllib.request.urlopen('http://127.0.0.1:8880/health').read() else 1)"
+CMD ["uvicorn", "app:create_app", "--factory", "--host", "0.0.0.0", "--port", "8880"]

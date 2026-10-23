@@ -1,0 +1,25 @@
+{
+  "title": "Monitoring billing data without moving it",
+  "executive_summary": "Utilities must document the controls behind billing data. [E9] This paper describes a monitoring model where the agent runs inside the customer's own cloud account, so row-level data stays there. [E4]",
+  "sections": [
+    {
+      "heading": "The problem",
+      "body_markdown": "Billing errors that reach customers erode trust, and regulators now expect documented controls. [E9]"
+    },
+    {
+      "heading": "Approaches in the market",
+      "body_markdown": "Rule-based tools let engineers write tests table by table, which suits known rules. [E8] Monitors add coverage for drift and staleness without a test per table. [E1]"
+    },
+    {
+      "heading": "Our approach",
+      "body_markdown": "The Halden agent runs inside the customer's cloud account and connects with read-only credentials. [E4][E5]"
+    },
+    {
+      "heading": "Proof",
+      "body_markdown": "A regional water company cut incident triage from six hours to ninety minutes. [E2] [PLACEHOLDER: second customer result]"
+    }
+  ],
+  "placeholders": [
+    "[PLACEHOLDER: second customer result]"
+  ]
+}

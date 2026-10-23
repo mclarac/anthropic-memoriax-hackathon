@@ -1,0 +1,74 @@
+.prose {
+  max-width: var(--measure);
+  overflow-wrap: anywhere;
+}
+
+.prose > * + * {
+  margin-top: var(--space-2);
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  margin-top: var(--space-3);
+  font-size: var(--text-base);
+}
+
+.prose h1 {
+  font-size: var(--text-lg);
+}
+
+.prose ul,
+.prose ol {
+  padding-left: var(--space-3);
+}
+
+.prose ul {
+  list-style: disc;
+}
+
+.prose ol {
+  list-style: decimal;
+}
+
+.prose li + li {
+  margin-top: var(--space-half);
+}
+
+.prose code {
+  padding: 0 4px;
+  background: var(--color-paper-raised);
+  border: var(--rule);
+}
+
+.prose pre {
+  overflow-x: auto;
+  padding: var(--space-1) var(--space-2);
+  background: var(--color-paper-raised);
+  border: var(--rule);
+}
+
+.prose pre code {
+  padding: 0;
+  border: 0;
+}
+
+.prose blockquote {
+  margin-left: 0;
+  padding-left: var(--space-2);
+  border-left: 3px solid var(--color-accent);
+  color: var(--color-ink-muted);
+}
+
+.prose table {
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+}
+
+.prose th,
+.prose td {
+  padding: var(--space-half) var(--space-1);
+  border: var(--rule);
+  text-align: left;
+}

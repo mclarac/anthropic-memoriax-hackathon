@@ -1,0 +1,18 @@
+{
+  "next_meeting": "Final pitch at Calder on 24 October with Gideon Marsh, the mill manager and the planners",
+  "win_condition": "Gideon agrees to put Sentinel sensors on the PM3 dryer section first",
+  "pain": "11 unplanned PM3 stops in 12 months totaling 94 hours at about 38 thousand dollars an hour, mostly dryer bearings and gearboxes",
+  "metrics": "Cut PM3 unplanned downtime 30 percent in year one; payback within 18 months",
+  "decision_process": "Reliability planner evaluates, corporate security clears, VP Manufacturing takes it to capital review",
+  "economic_buyer": "Gideon Marsh, VP Manufacturing, with 410 thousand dollars approved in the September capital plan",
+  "decision_criteria": "Edge gateway IEC 62443 assessment summary; low false-alarm rate on Calder data; install fits the February outage; 18-month payback",
+  "objections": "Wendell's cloud-path objection is resolved. New: outage moved to the week of 9 February and cut to five days; Gideon asks whether 120 sensors fit and who carries overrun. Bernadette's false-alarm concern is softer but wants Calder data",
+  "competition": "Ironvale Condition Monitoring: wireless stick-on sensors, about 40 per shift with no shutdown, on-premises analytics; lower sampling rate, no motor current, no SAP PM integration",
+  "champion": null,
+  "paper_process": "Corporate procurement, security review, insurer wants to see it; about two months for terms",
+  "assets_requested": "Deck, one-page install plan for Gideon, emails to Bernadette and Wendell",
+  "audience": "Gideon Marsh, Ofelia Brandt, Bernadette Okoye, Wendell Frost",
+  "deadline": "24 October",
+  "brand_constraints": null,
+  "forbidden_claims": "Do not claim IEC 62443 certification"
+}

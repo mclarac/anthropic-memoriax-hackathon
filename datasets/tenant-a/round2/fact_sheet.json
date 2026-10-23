@@ -1,0 +1,18 @@
+{
+  "next_meeting": "Final pitch on 22 October, Tomas Hjelm attends the whole session",
+  "win_condition": "Ines agrees to a two-week dry run of Tracebase on Marlowe's real traffic",
+  "pain": "Observability spend up 38 percent year over year against 6 percent headcount growth; Splunk costs about 4.2 million dollars a year",
+  "metrics": "Cut ingest volume 40 percent without raising Sev-2 mean time to resolve above 47 minutes",
+  "decision_process": "Platform engineering evaluates, FinOps reviews the numbers, security questionnaire, SVP Engineering signs",
+  "economic_buyer": "Tomas Hjelm, SVP Engineering, with 600 thousand dollars approved from the FY27 cost-optimisation line",
+  "decision_criteria": "No increase in incident resolution time; engineers keep trust in sampled traces; savings proven on Marlowe traffic",
+  "objections": "Ines's failure objection is resolved by the dual-collector design. New: compliance counsel Reggie Foss requires ELD logs retained unsampled for six months and dispatch audit logs for seven years. Priya's Splunk renegotiation model shows 12 percent savings",
+  "competition": "Cascadia Observe bundles a free pipeline with its backend but routes to three destinations and lacks Splunk HEC; Tracebase 4.2 adds a lossless S3 archive and per-stream bypass",
+  "champion": "Theo Bell, staff SRE, who requested the architecture review",
+  "paper_process": "Security questionnaire, procurement MSA of about six weeks, SOC 2 report required",
+  "assets_requested": "Final pitch deck, one-page FinOps cost model document, short email sequence for Ines and Theo Bell",
+  "audience": "Ines Calderon, Theo Bell, Priya Venkataraman, Reggie Foss, Tomas Hjelm",
+  "deadline": "22 October",
+  "brand_constraints": null,
+  "forbidden_claims": "Do not promise zero data loss"
+}

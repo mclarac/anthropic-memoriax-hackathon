@@ -1,0 +1,58 @@
+name: memoria
+
+services:
+  tts:
+    build: ./tts
+    ports:
+      - "8880:8880"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if b'\"model_loaded\":true' in urllib.request.urlopen('http://127.0.0.1:8880/health').read() else 1)"]
+      interval: 15s
+      timeout: 5s
+      start_period: 30s
+      retries: 3
+
+  api:
+    build: ./backend
+    env_file: .env
+    environment:
+      MEMORIA_MODE: ${MEMORIA_MODE:-live}
+      MEMORIA_TTS_URL: http://tts:8880
+      MEMORIA_DATA_DIR: /app/data
+    ports:
+      - "8000:8000"
+    volumes:
+      - memoria-data:/app/data
+    depends_on:
+      tts:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health')"]
+      interval: 15s
+      timeout: 5s
+      start_period: 20s
+      retries: 3
+
+  web:
+    build:
+      context: ./web
+      args:
+        MEMORIA_API_URL: http://api:8000
+        NEXT_PUBLIC_MEMORIA_WS_ORIGIN: ws://localhost:8000
+    environment:
+      MEMORIA_API_URL: http://api:8000
+      NEXT_PUBLIC_MEMORIA_WS_ORIGIN: ws://localhost:8000
+    ports:
+      - "3000:3000"
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3000/"]
+      interval: 15s
+      timeout: 5s
+      start_period: 20s
+      retries: 3
+
+volumes:
+  memoria-data:

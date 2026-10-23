@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "question": "What priorities has Brightwater announced for billing data?",
+      "outcome": "answered",
+      "evidence_ids": [
+        "E7"
+      ]
+    },
+    {
+      "question": "How does Veridian Checks approach data testing?",
+      "outcome": "answered",
+      "evidence_ids": [
+        "E8"
+      ]
+    },
+    {
+      "question": "Which regulatory changes affect billing data controls?",
+      "outcome": "answered",
+      "evidence_ids": [
+        "E9"
+      ]
+    },
+    {
+      "question": "Has Brightwater published its data platform vendor list?",
+      "outcome": "unanswerable",
+      "evidence_ids": []
+    }
+  ],
+  "entries": [
+    {
+      "id": "E7",
+      "kind": "web",
+      "applies_to": "account",
+      "claim": "Brightwater Utilities announced a billing accuracy program for 2027.",
+      "quote": "Brightwater will launch a billing accuracy program in 2027 covering all customer accounts.",
+      "source": "https://www.brightwater-utilities.example/news/billing-accuracy-program",
+      "source_date": "2026-08-04",
+      "retrieved_on": "2026-10-23",
+      "conflict_note": null
+    },
+    {
+      "id": "E8",
+      "kind": "web",
+      "applies_to": "competitor",
+      "claim": "Veridian Checks is a rule-based data testing tool where engineers write tests table by table.",
+      "quote": "Veridian Checks lets data engineers define tests for each table in code.",
+      "source": "https://www.veridian-checks.example/docs/overview",
+      "source_date": "2026-05-19",
+      "retrieved_on": "2026-10-23",
+      "conflict_note": null
+    },
+    {
+      "id": "E9",
+      "kind": "web",
+      "applies_to": "market",
+      "claim": "State regulators now expect utilities to document their billing data controls.",
+      "quote": "Utilities must document the controls that protect the accuracy of billing data.",
+      "source": "https://www.statepuc.example/orders/2026-billing-controls",
+      "source_date": "2026-06-30",
+      "retrieved_on": "2026-10-23",
+      "conflict_note": null
+    }
+  ]
+}

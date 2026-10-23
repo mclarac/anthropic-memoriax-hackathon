@@ -1,0 +1,12 @@
+[
+  "ok so next thing is the final pitch it's the twenty second i think and we're pitching ines and her team plus the svp for the last bit and a win honestly is ines saying yes to a two week dry run of trace base on their real traffic",
+  "the pain is the observability bill basically it went up like thirty eight percent last year and headcount only went up six so finance is freaking out and they're paying splunk about four point two million a year",
+  "uh metrics wise they want to cut ingest by forty percent without making incidents slower their mean time to resolve on sev twos is forty seven minutes and they do not want that number to go up",
+  "decision process is ines evaluates with her platform team then finops looks at the numbers then security does a questionnaire and then it goes to the svp of engineering to sign",
+  "the economic buyer is tomas hjelm he's the svp engineering and he has a six hundred k budget approved from the fy twenty seven cost optimization line",
+  "objections so far um ines worries that another hop in the pipeline is another thing that breaks during an incident theo bell the sre thinks sampling will hide traces and priya in finops says they could just renegotiate splunk",
+  "competition is mostly doing nothing like the status quo and renegotiating the splunk renewal in march they also looked at some self hosted thing with logstash and kafka that they said was fragile",
+  "champion is um theo bell i think he's the staff sre he's the one who asked for the architecture review he's pretty into the tail sampling stuff",
+  "paper wise it's a security questionnaire plus procurement and their msa takes about six weeks usually and they want a soc two report",
+  "assets i want a pelucid deck for the final pitch a one page doc for finops with the cost model and a short email sequence for ines and theo bell and uh the deadline is the twenty second"
+]

@@ -1,0 +1,23 @@
+{
+  "name": "Tidewell Health Devices",
+  "offering_summary": "Tidewell CareLoop is a remote patient monitoring program for heart failure and hypertension: a cellular blood pressure cuff, scale and pulse oximeter that ship pre-paired to the patient, plus a nurse dashboard that ranks patients by risk and writes readings back into Epic over FHIR. Sold to health systems and accountable care organisations that carry readmission penalties. Priced per enrolled patient per month, with a 90-day pilot option.",
+  "brand_voice": "Clinical, measured and specific. Cite the study or the customer's own data. Never sound like a wellness app.",
+  "approved_claims": [
+    "The CareLoop cuff is FDA 510(k) cleared.",
+    "Readings are written to Epic flowsheets over FHIR R4 within five minutes of measurement.",
+    "SOC 2 Type II report available under NDA; BAA signed with every customer.",
+    "In the 2025 Tidewell multi-site cohort of 1,840 heart failure patients, 30-day all-cause readmissions were lower in the monitored group than matched controls."
+  ],
+  "forbidden_claims": [
+    "Never claim CareLoop replaces clinical judgment or diagnoses a condition.",
+    "Never quote a readmission reduction percentage for a specific customer.",
+    "Never state reimbursement amounts as guaranteed; they depend on payer and documentation."
+  ],
+  "default_assets": [
+    "deck",
+    "whitepaper",
+    "email_sequence"
+  ],
+  "account_slug": "ashgrove-health",
+  "rep_slug": "rui-santos"
+}

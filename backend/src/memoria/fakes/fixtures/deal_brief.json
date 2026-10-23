@@ -1,0 +1,119 @@
+{
+  "account_name": "Brightwater Utilities",
+  "account_industry": "Electric and water utilities",
+  "deal_stage": "final_pitch",
+  "next_meeting": {
+    "date": "2026-10-24",
+    "meeting_type": "final pitch",
+    "attendees": [
+      {
+        "role": "CIO",
+        "name": null
+      },
+      {
+        "role": "Head of Data Engineering",
+        "name": null
+      },
+      {
+        "role": "Security lead",
+        "name": null
+      }
+    ],
+    "win_condition": "Approval to start a 60-day pilot on the billing tables"
+  },
+  "pain": {
+    "value": "Billing data errors reach customers before the data team notices",
+    "status": "confirmed",
+    "source": "interview",
+    "evidence_quote": "billing errors get to customers before we catch them"
+  },
+  "metrics": {
+    "value": "Time to detect a data incident; billing correction rate",
+    "status": "confirmed",
+    "source": "interview",
+    "evidence_quote": "we track detection time and how many bills we correct"
+  },
+  "economic_buyer": {
+    "value": "CIO",
+    "status": "confirmed",
+    "source": "interview",
+    "evidence_quote": "the CIO signs off"
+  },
+  "decision_process": {
+    "value": "Technical review, security review, then CIO approval",
+    "status": "confirmed",
+    "source": "interview",
+    "evidence_quote": "tech review, then security, then the CIO"
+  },
+  "decision_criteria": {
+    "value": null,
+    "status": "open",
+    "source": "interview",
+    "evidence_quote": null
+  },
+  "champion": {
+    "value": "Head of Data Engineering",
+    "status": "confirmed",
+    "source": "interview",
+    "evidence_quote": "the head of data engineering is pushing for this"
+  },
+  "paper_process": {
+    "value": "Security questionnaire, then legal review",
+    "status": "confirmed",
+    "source": "interview",
+    "evidence_quote": "security questionnaire and then legal"
+  },
+  "competition": {
+    "value": "Veridian Checks",
+    "status": "confirmed",
+    "source": "interview",
+    "evidence_quote": "they are also looking at Veridian Checks"
+  },
+  "objections": [
+    {
+      "id": "O1",
+      "text": "Security wants to know where monitored data goes.",
+      "raised_by_role": "Security lead",
+      "raised_on": "2026-10-23",
+      "status": "open",
+      "superseded_by": null,
+      "source": "interview"
+    },
+    {
+      "id": "O2",
+      "text": "Veridian Checks already covers testing, so why add another tool.",
+      "raised_by_role": "Head of Data Engineering",
+      "raised_on": "2026-10-23",
+      "status": "open",
+      "superseded_by": null,
+      "source": "interview"
+    }
+  ],
+  "campaign": {
+    "goal": "Win approval for a 60-day pilot on the billing tables.",
+    "assets_requested": [
+      "deck",
+      "document",
+      "blog",
+      "email_sequence",
+      "whitepaper"
+    ],
+    "audience_notes": "CIO, Head of Data Engineering and the security lead.",
+    "deadline": "2026-10-24",
+    "brand_constraints": "Plain and direct. No superlatives.",
+    "forbidden_claims": [
+      "Guarantees zero data incidents"
+    ]
+  },
+  "what_changed": [],
+  "open_questions": [
+    {
+      "question": "Which contract terms apply to the pilot?",
+      "decider": "legal"
+    },
+    {
+      "question": "Is a customer reference available for the call?",
+      "decider": "sales_leadership"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "personas": [
+    {
+      "id": "P1",
+      "role": "economic_buyer",
+      "title": "CIO",
+      "name": null,
+      "goals": [
+        {
+          "text": "Stop billing data errors before they reach customers.",
+          "basis": "evidenced",
+          "evidence_ids": [
+            "E3",
+            "E7"
+          ]
+        }
+      ],
+      "kpis": [
+        {
+          "text": "Billing correction rate.",
+          "basis": "hypothesis",
+          "evidence_ids": []
+        }
+      ],
+      "fears": [
+        {
+          "text": "A regulator finding on billing data controls.",
+          "basis": "evidenced",
+          "evidence_ids": [
+            "E9"
+          ]
+        }
+      ],
+      "objection_ids": [],
+      "what_wins_them": [
+        {
+          "text": "Alerts within five minutes on the billing tables.",
+          "basis": "evidenced",
+          "evidence_ids": [
+            "E1"
+          ]
+        }
+      ],
+      "preferred_channels": [
+        "meeting",
+        "deck"
+      ],
+      "influence": "decides"
+    },
+    {
+      "id": "P2",
+      "role": "champion",
+      "title": "Head of Data Engineering",
+      "name": null,
+      "goals": [
+        {
+          "text": "Cover 40 sites without hand-writing tests for every table.",
+          "basis": "evidenced",
+          "evidence_ids": [
+            "E3",
+            "E8"
+          ]
+        }
+      ],
+      "kpis": [
+        {
+          "text": "Mean time to detect a data incident.",
+          "basis": "hypothesis",
+          "evidence_ids": []
+        }
+      ],
+      "fears": [
+        {
+          "text": "Another tool that duplicates the testing already in place.",
+          "basis": "evidenced",
+          "evidence_ids": [
+            "E8"
+          ]
+        }
+      ],
+      "objection_ids": [
+        "O2"
+      ],
+      "what_wins_them": [
+        {
+          "text": "Read-only connectors for Snowflake.",
+          "basis": "evidenced",
+          "evidence_ids": [
+            "E5"
+          ]
+        },
+        {
+          "text": "Triage time cut from six hours to ninety minutes at a comparable utility.",
+          "basis": "evidenced",
+          "evidence_ids": [
+            "E2"
+          ]
+        }
+      ],
+      "preferred_channels": [
+        "demo",
+        "document",
+        "email"
+      ],
+      "influence": "strongly_influences"
+    },
+    {
+      "id": "P3",
+      "role": "procurement_blocker",
+      "title": "Security lead",
+      "name": null,
+      "goals": [
+        {
+          "text": "Keep customer billing data inside Brightwater's environment.",
+          "basis": "evidenced",
+          "evidence_ids": [
+            "E6"
+          ]
+        }
+      ],
+      "kpis": [
+        {
+          "text": "Number of third parties with access to customer data.",
+          "basis": "hypothesis",
+          "evidence_ids": []
+        }
+      ],
+      "fears": [
+        {
+          "text": "Monitoring data leaving the cloud account.",
+          "basis": "evidenced",
+          "evidence_ids": [
+            "E6"
+          ]
+        }
+      ],
+      "objection_ids": [
+        "O1"
+      ],
+      "what_wins_them": [
+        {
+          "text": "An agent that runs inside the customer's own cloud account.",
+          "basis": "evidenced",
+          "evidence_ids": [
+            "E4"
+          ]
+        }
+      ],
+      "preferred_channels": [
+        "document",
+        "whitepaper",
+        "meeting"
+      ],
+      "influence": "strongly_influences"
+    }
+  ]
+}

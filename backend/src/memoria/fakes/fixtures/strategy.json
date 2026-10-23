@@ -1,0 +1,258 @@
+{
+  "headline": "Win the pilot by answering the security question first and showing Halden complements Veridian Checks.",
+  "changes_from_last_strategy": [
+    {
+      "change": "Open the pitch with data residency instead of the product tour.",
+      "because": "The security lead keeps asking where monitored data goes.",
+      "evidence_ids": [
+        "E6",
+        "E4"
+      ]
+    }
+  ],
+  "positioning": "For utilities that bill from a shared warehouse, Halden watches every table for drift and staleness without moving data out of the customer's cloud account.",
+  "pillars": [
+    {
+      "message": "Data stays inside your cloud account.",
+      "persona_ids": [
+        "P3"
+      ],
+      "evidence_ids": [
+        "E4"
+      ]
+    },
+    {
+      "message": "Coverage across all tables without per-table test writing.",
+      "persona_ids": [
+        "P2"
+      ],
+      "evidence_ids": [
+        "E1",
+        "E8"
+      ]
+    },
+    {
+      "message": "Faster triage protects billing accuracy.",
+      "persona_ids": [
+        "P1"
+      ],
+      "evidence_ids": [
+        "E2",
+        "E7"
+      ]
+    }
+  ],
+  "objection_matrix": [
+    {
+      "objection_id": "O1",
+      "response": "The Halden agent runs inside Brightwater's own cloud account, so row-level data stays there.",
+      "proof_evidence_ids": [
+        "E4"
+      ],
+      "proof_gap_action": null,
+      "who_answers": "sales_engineer"
+    },
+    {
+      "objection_id": "O2",
+      "response": "Position Halden as monitoring across every table, alongside the tests Veridian Checks runs.",
+      "proof_evidence_ids": [
+        "E1",
+        "E8"
+      ],
+      "proof_gap_action": null,
+      "who_answers": "rep"
+    }
+  ],
+  "battle_card": [
+    {
+      "competitor": "Veridian Checks",
+      "where_we_win": [
+        {
+          "text": "Alerts on drift and freshness without tests written table by table.",
+          "basis": "evidenced",
+          "evidence_ids": [
+            "E1",
+            "E8"
+          ]
+        }
+      ],
+      "where_they_win": [
+        {
+          "text": "Engineers get precise, code-defined tests for known rules.",
+          "basis": "evidenced",
+          "evidence_ids": [
+            "E8"
+          ]
+        }
+      ],
+      "landmines": [
+        "How many of the 40 sites' tables have a hand-written test today?"
+      ],
+      "do_not_say": [
+        "Veridian Checks cannot scale."
+      ]
+    }
+  ],
+  "pitch_sequence": [
+    {
+      "order": 1,
+      "segment": "Where your data stays",
+      "minutes": 8,
+      "goal": "Close the security objection.",
+      "persona_ids": [
+        "P3"
+      ],
+      "evidence_ids": [
+        "E4",
+        "E6"
+      ],
+      "why_here": "Security holds the highest-stakes open objection."
+    },
+    {
+      "order": 2,
+      "segment": "Coverage next to your tests",
+      "minutes": 8,
+      "goal": "Show Halden complements Veridian Checks.",
+      "persona_ids": [
+        "P2"
+      ],
+      "evidence_ids": [
+        "E1",
+        "E8"
+      ],
+      "why_here": "The champion needs an answer to the overlap question."
+    },
+    {
+      "order": 3,
+      "segment": "Billing accuracy outcome",
+      "minutes": 7,
+      "goal": "Tie detection speed to billing accuracy.",
+      "persona_ids": [
+        "P1"
+      ],
+      "evidence_ids": [
+        "E2",
+        "E7"
+      ],
+      "why_here": "The CIO decides after hearing both answers."
+    },
+    {
+      "order": 4,
+      "segment": "The 60-day pilot",
+      "minutes": 5,
+      "goal": "Agree the pilot scope.",
+      "persona_ids": [
+        "P1",
+        "P2"
+      ],
+      "evidence_ids": [
+        "E5"
+      ],
+      "why_here": "The ask comes last."
+    }
+  ],
+  "outreach_sequence": [
+    {
+      "day": 0,
+      "channel": "email",
+      "persona_id": "P2",
+      "purpose": "Send the pilot outline before the call.",
+      "asset_type": "email_sequence"
+    },
+    {
+      "day": 1,
+      "channel": "content_share",
+      "persona_id": "P3",
+      "purpose": "Share the data residency document.",
+      "asset_type": "document"
+    },
+    {
+      "day": 3,
+      "channel": "email",
+      "persona_id": "P1",
+      "purpose": "Follow up with the pilot proposal.",
+      "asset_type": "email_sequence"
+    }
+  ],
+  "asset_plan": [
+    {
+      "asset_type": "deck",
+      "persona_ids": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "goal": "Carry the final pitch.",
+      "key_messages": [
+        "Data stays inside your cloud account.",
+        "Coverage next to your tests."
+      ],
+      "length_hint": "6 slides"
+    },
+    {
+      "asset_type": "document",
+      "persona_ids": [
+        "P3"
+      ],
+      "goal": "Answer the security review.",
+      "key_messages": [
+        "Where monitored data lives."
+      ],
+      "length_hint": "2 pages"
+    },
+    {
+      "asset_type": "blog",
+      "persona_ids": [
+        "P2"
+      ],
+      "goal": "Explain monitoring beside testing.",
+      "key_messages": [
+        "Tests and monitors catch different failures."
+      ],
+      "length_hint": "700 words"
+    },
+    {
+      "asset_type": "email_sequence",
+      "persona_ids": [
+        "P1",
+        "P2"
+      ],
+      "goal": "Move to a pilot.",
+      "key_messages": [
+        "A 60-day pilot on the billing tables."
+      ],
+      "length_hint": "3 emails"
+    },
+    {
+      "asset_type": "whitepaper",
+      "persona_ids": [
+        "P3",
+        "P1"
+      ],
+      "goal": "Document the data residency model.",
+      "key_messages": [
+        "Monitoring without moving data."
+      ],
+      "length_hint": "2,500 words"
+    }
+  ],
+  "risks": [
+    {
+      "text": "The pilot may overlap with existing Veridian Checks coverage.",
+      "basis": "evidenced",
+      "evidence_ids": [
+        "E8"
+      ]
+    }
+  ],
+  "open_questions": [
+    {
+      "question": "Which contract terms apply to the pilot?",
+      "decider": "legal"
+    },
+    {
+      "question": "Is a customer reference available for the call?",
+      "decider": "sales_leadership"
+    }
+  ]
+}

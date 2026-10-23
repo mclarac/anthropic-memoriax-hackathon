@@ -2,7 +2,7 @@
 
 Memoria is a voice-first sales engineer agent that works for any company and any product. It interviews a sales rep, retrieves and researches evidence, builds target personas, and produces a campaign: decks, documents, blogs, email sequences and whitepapers. Its memory is per company (tenant), so it gets sharper on each account over time.
 
-Stage prompts, schemas and call settings: [`../prompts/chain_prompts.py`](../prompts/chain_prompts.py).
+Stage prompts, schemas and call settings: [`../backend/src/memoria/chain_prompts.py`](../backend/src/memoria/chain_prompts.py).
 
 ## 1. System and deployment
 

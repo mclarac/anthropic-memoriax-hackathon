@@ -1,0 +1,7 @@
+line-length = 110
+
+[lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[lint.isort]
+known-first-party = ["app", "synthesizer"]

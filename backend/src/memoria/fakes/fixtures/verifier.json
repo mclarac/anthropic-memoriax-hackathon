@@ -1,0 +1,31 @@
+{
+  "claims": [
+    {
+      "location": "Slide 1",
+      "claim": "The agent runs in your own cloud account.",
+      "cited": [
+        "E4"
+      ],
+      "verdict": "supported",
+      "fix": null
+    },
+    {
+      "location": "Slide 3",
+      "claim": "Alerts reach the owning team within five minutes.",
+      "cited": [
+        "E1"
+      ],
+      "verdict": "supported",
+      "fix": null
+    },
+    {
+      "location": "Closing",
+      "claim": "A pilot is the right next step.",
+      "cited": [],
+      "verdict": "opinion_ok",
+      "fix": null
+    }
+  ],
+  "rule_breaches": [],
+  "asset_verdict": "pass"
+}

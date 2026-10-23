@@ -1,0 +1,34 @@
+{
+  "emails": [
+    {
+      "step": 1,
+      "send_day": 0,
+      "persona_id": "P2",
+      "subject": "Pilot outline for tomorrow",
+      "preview_text": "How monitors sit beside your existing tests",
+      "body_text": "Hi, ahead of tomorrow's call, here is the outline. Halden alerts the owning team within five minutes on schema drift and stale tables. [E1] It runs beside the table-level tests you already write. [E8] Can we agree the billing tables as the pilot scope?",
+      "ask": "Agree the billing tables as the pilot scope."
+    },
+    {
+      "step": 2,
+      "send_day": 1,
+      "persona_id": "P3",
+      "subject": "Where monitored data stays",
+      "preview_text": "A short note for your security review",
+      "body_text": "Hi, the Halden agent runs inside your own cloud account, so row-level data does not leave it. [E4] Connectors use read-only credentials. [E5] Could your team review the attached summary before Friday?",
+      "ask": "Review the attached data residency summary."
+    },
+    {
+      "step": 3,
+      "send_day": 3,
+      "persona_id": "P1",
+      "subject": "Proposed 60-day pilot",
+      "preview_text": "Scope, success measures and next steps",
+      "body_text": "Hi, thanks for the time. A regional water company cut incident triage from six hours to ninety minutes. [E2] We propose a 60-day pilot on the billing tables. [PLACEHOLDER: pilot success criteria] Shall we set a start date?",
+      "ask": "Set a pilot start date."
+    }
+  ],
+  "placeholders": [
+    "[PLACEHOLDER: pilot success criteria]"
+  ]
+}
